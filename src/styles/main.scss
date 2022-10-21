@@ -2,6 +2,18 @@
 @import "fonts";
 @import "typography";
 
-body {
-  background: $c-gray;
+.app {
+  padding: 50px;
+
+  &__canvas {
+    display: block;
+    border: 1px solid red;
+    margin-bottom: 20px;
+  }
+
+  &__button {
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+  }
 }
